@@ -1,0 +1,13 @@
+git update-index --chmod=+r -- $(git ls-files folder/with/wrong/permissions/*r
+
+php artisan migrate
+php artisan migrate --force
+php artisan migrate:reset
+
+generators
+
+\func now() 
+
+php artisan migrate:rollback
+
+php artisan make:migration:pivot post tag

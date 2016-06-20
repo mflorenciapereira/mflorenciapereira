@@ -1,0 +1,35 @@
+<section id="welcome" class="welcome-section">
+<h1>Welcome!</h1>	       
+<p>Welcome to my personal website!</p>
+<p>My name is Florencia Pereira, a <a href="">porteña</a> by birth and by choice. I am a Computer Engineer, graduated from <a href="">Buenos Aires University (UBA)</a>. I work mainly as a Developer.</p>
+<p>mflorenciapereira.com.ar was thought as a way of sharing my experience and skills regarding information technology as well as a place to organize resources for 
+my passions and hobbies.</p>
+I am a Technology enthusiast, I love discovering and testing new frameworks in any programming language and putting them in practice to 
+solve people needs. 
+I try to vary as much as I can the frameworks I use from project to project, so that I can discover and learn new tools in the process of development. 
+Most of the projects I have worked with can be found in the Porfolio section. 
+There you will find a detailed description of the architecture, implementation and repositories for open source projects I have been working on. 
+Amongst others, ing PHP, Java, Ruby, Hibernate, Jquery, Node JS, Angulat JS, Codeigniter, Laravel, Rails, Android amongst others.
+Another aspect of Information Tehnology I am really into is Information Security.
+    </section>
+   <section id="resume" class="resume-section">
+        <h1>Resume</h1>	       
+Resume
+    </section>
+	
+	
+   <section id="portfolio" class="portfolio-section">
+        <h1>Portfolio</h1>	       
+		Resume
+    </section>   
+	
+	<section id="blog" class="blog-section">
+        <h1>Blog</h1>	       
+		Resume
+    </section>	
+	
+	<section id="contactme" class="contactme-section">
+        <h1>Contact me</h1>	       
+		Resume
+    </section>
+	

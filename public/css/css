@@ -1,0 +1,271 @@
+
+html, body {
+  
+    height: 100%;
+}
+
+body{
+	margin: 0;
+	font-family: 'Play', sans-serif;
+	
+	font-size:3vmin;
+	text-align: justify;
+	 
+  width: 100%;
+   min-height:100%; 
+    background:red; 
+
+	
+	
+	
+}
+
+
+/* Navbar */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0099CC;	
+	width:100vw;
+	position: fixed;
+	
+}
+
+ul.topnav li {float: left;}
+ul.topnav li:nth-last-child(2) {
+	float: right;
+	background: rgb(0,153,204); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(0,153,204,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,153,204,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,153,204,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099cc', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 12px;	
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: .75em;
+	font-family: 'Play', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0px #000; 
+	font-size:12px;
+}
+
+ul.topnav li:not(:nth-last-child(2)) :hover {background-color: #AA0078;}
+
+ul.topnav li.icon {display: none;}
+
+/* Responsive navbar */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:nth-last-child(2)) {display: none;}
+  ul.topnav li.icon {
+	  position: fixed;
+    float: left;
+    display: inline-block;
+  }
+  
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: fixed;}
+  ul.topnav.responsive li.icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+	
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+.content{
+	margin-top: 0vh;
+	padding-top: 5vh;
+	width: 100vw;
+	height: 100vh;
+	
+	
+	
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            animation: fadein 2s;
+    
+}
+
+
+
+/* For IE 6/7 (trigger hasLayout) */
+section {
+	height:100%;
+	width:100%;
+	padding: 6vmin;
+	position: relative;
+	
+}
+
+.welcome-section{
+	background: url('/img/bg/diagonal_striped_brick.png');
+}
+
+.resume-section{
+	background: url('/img/bg/linedpaper.png');
+	
+}
+
+.portfolio-section{
+	background: url('/img/bg/diamond_upholstery.png');
+}
+.blog-section{
+	background: url('/img/bg/lightpaperfibers.png');
+}
+
+.contactme-section{
+	background: url('/img/bg/grey.png');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Headings */
+
+h1 {
+	color: #AA0078 ;	
+	font-size:6vmin;
+	font-family: 'Sarpanch', sans-serif;
+	
+	text-shadow: 
+	
+	
+	1px 1px 0px rgba(0, 0, 0, 1),
+	-1px -1px 0px rgba(0, 0, 0, 1),
+	1px -1px 0px rgba(0, 0, 0, 1),
+	-1px 1px 0px rgba(0, 0, 0, 1)
+	;
+	
+}
+
+h2 {
+	color: #0099CC;	
+	font-size:3vmin;
+	font-family: 'Sarpanch', sans-serif;
+	text-shadow: 
+	
+	
+	1px 1px 0px rgba(0, 0, 0, 1),
+	-1px -1px 0px rgba(0, 0, 0, 1),
+	1px -1px 0px rgba(0, 0, 0, 1),
+	-1px 1px 0px rgba(0, 0, 0, 1)
+	; 
+	
+		
+	
+
+	;
+	
+}
+
+h3 {
+	color: #0099CC;	
+	font-size:3vmin;
+	font-family: 'Sarpanch', sans-serif;
+	;
+	
+}
+
+a {
+    color: #CD950C;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+a:hover {
+    color: #CD950C;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+
+ul {
+    list-style-image: url(‘/img/leaf_icon.jpg’);
+	
+}
+
+.left{
+	float:left;
+	width:50%;
+}
+
+
+.right{
+	float:right;
+	width:50%;
+	
+}
+
+.container{
+
+border: 1px solid red;
+display: block;
+
+ 
+}
+
+footer, .push {
+    
+position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+
+}
+
+
+
